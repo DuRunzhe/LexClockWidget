@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7AD6EEB252F3BF6005B9EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6EEA252F3BF6005B9EAF /* AppDelegate.swift */; };
+		D7AD6EED252F3BF6005B9EAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6EEC252F3BF6005B9EAF /* SceneDelegate.swift */; };
+		D7AD6EEF252F3BF6005B9EAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6EEE252F3BF6005B9EAF /* ContentView.swift */; };
+		D7AD6EF1252F3BF7005B9EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AD6EF0252F3BF7005B9EAF /* Assets.xcassets */; };
+		D7AD6EF4252F3BF7005B9EAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AD6EF3252F3BF7005B9EAF /* Preview Assets.xcassets */; };
+		D7AD6EF7252F3BF7005B9EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AD6EF5252F3BF7005B9EAF /* LaunchScreen.storyboard */; };
+		D7AD6F06252F3C0C005B9EAF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD6F05252F3C0C005B9EAF /* WidgetKit.framework */; };
+		D7AD6F08252F3C0C005B9EAF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD6F07252F3C0C005B9EAF /* SwiftUI.framework */; };
+		D7AD6F0B252F3C0C005B9EAF /* LexClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6F0A252F3C0C005B9EAF /* LexClockWidget.swift */; };
+		D7AD6F0E252F3C0D005B9EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AD6F0D252F3C0D005B9EAF /* Assets.xcassets */; };
+		D7AD6F10252F3C0D005B9EAF /* LexClockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6F0C252F3C0C005B9EAF /* LexClockWidget.intentdefinition */; };
+		D7AD6F11252F3C0D005B9EAF /* LexClockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6F0C252F3C0C005B9EAF /* LexClockWidget.intentdefinition */; };
+		D7AD6F14252F3C0D005B9EAF /* LexClockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7AD6F03252F3C0C005B9EAF /* LexClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7AD6F25252F4ABE005B9EAF /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6F24252F4ABE005B9EAF /* ClockView.swift */; };
+		D7AD6F2C252F4B6E005B9EAF /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AD6F24252F4ABE005B9EAF /* ClockView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7AD6F12252F3C0D005B9EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7AD6EDF252F3BF6005B9EAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AD6F02252F3C0C005B9EAF;
+			remoteInfo = LexClockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7AD6F18252F3C0D005B9EAF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7AD6F14252F3C0D005B9EAF /* LexClockWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7AD6EE7252F3BF6005B9EAF /* LexClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LexClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AD6EEA252F3BF6005B9EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7AD6EEC252F3BF6005B9EAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7AD6EEE252F3BF6005B9EAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7AD6EF0252F3BF7005B9EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7AD6EF3252F3BF7005B9EAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7AD6EF6252F3BF7005B9EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7AD6EF8252F3BF7005B9EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AD6F03252F3C0C005B9EAF /* LexClockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LexClockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AD6F05252F3C0C005B9EAF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D7AD6F07252F3C0C005B9EAF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D7AD6F0A252F3C0C005B9EAF /* LexClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexClockWidget.swift; sourceTree = "<group>"; };
+		D7AD6F0C252F3C0C005B9EAF /* LexClockWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LexClockWidget.intentdefinition; sourceTree = "<group>"; };
+		D7AD6F0D252F3C0D005B9EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7AD6F0F252F3C0D005B9EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AD6F24252F4ABE005B9EAF /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7AD6EE4252F3BF6005B9EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AD6F00252F3C0C005B9EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AD6F08252F3C0C005B9EAF /* SwiftUI.framework in Frameworks */,
+				D7AD6F06252F3C0C005B9EAF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7AD6EDE252F3BF6005B9EAF = {
+			isa = PBXGroup;
+			children = (
+				D7AD6EE9252F3BF6005B9EAF /* LexClock */,
+				D7AD6F09252F3C0C005B9EAF /* LexClockWidget */,
+				D7AD6F04252F3C0C005B9EAF /* Frameworks */,
+				D7AD6EE8252F3BF6005B9EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7AD6EE8252F3BF6005B9EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD6EE7252F3BF6005B9EAF /* LexClock.app */,
+				D7AD6F03252F3C0C005B9EAF /* LexClockWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7AD6EE9252F3BF6005B9EAF /* LexClock */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD6EEA252F3BF6005B9EAF /* AppDelegate.swift */,
+				D7AD6EEC252F3BF6005B9EAF /* SceneDelegate.swift */,
+				D7AD6EEE252F3BF6005B9EAF /* ContentView.swift */,
+				D7AD6EF0252F3BF7005B9EAF /* Assets.xcassets */,
+				D7AD6EF5252F3BF7005B9EAF /* LaunchScreen.storyboard */,
+				D7AD6EF8252F3BF7005B9EAF /* Info.plist */,
+				D7AD6EF2252F3BF7005B9EAF /* Preview Content */,
+			);
+			path = LexClock;
+			sourceTree = "<group>";
+		};
+		D7AD6EF2252F3BF7005B9EAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD6EF3252F3BF7005B9EAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7AD6F04252F3C0C005B9EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD6F05252F3C0C005B9EAF /* WidgetKit.framework */,
+				D7AD6F07252F3C0C005B9EAF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7AD6F09252F3C0C005B9EAF /* LexClockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD6F0A252F3C0C005B9EAF /* LexClockWidget.swift */,
+				D7AD6F24252F4ABE005B9EAF /* ClockView.swift */,
+				D7AD6F0C252F3C0C005B9EAF /* LexClockWidget.intentdefinition */,
+				D7AD6F0D252F3C0D005B9EAF /* Assets.xcassets */,
+				D7AD6F0F252F3C0D005B9EAF /* Info.plist */,
+			);
+			path = LexClockWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7AD6EE6252F3BF6005B9EAF /* LexClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AD6EFB252F3BF7005B9EAF /* Build configuration list for PBXNativeTarget "LexClock" */;
+			buildPhases = (
+				D7AD6EE3252F3BF6005B9EAF /* Sources */,
+				D7AD6EE4252F3BF6005B9EAF /* Frameworks */,
+				D7AD6EE5252F3BF6005B9EAF /* Resources */,
+				D7AD6F18252F3C0D005B9EAF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AD6F13252F3C0D005B9EAF /* PBXTargetDependency */,
+			);
+			name = LexClock;
+			packageProductDependencies = (
+			);
+			productName = WidgetPlayground;
+			productReference = D7AD6EE7252F3BF6005B9EAF /* LexClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7AD6F02252F3C0C005B9EAF /* LexClockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AD6F15252F3C0D005B9EAF /* Build configuration list for PBXNativeTarget "LexClockWidgetExtension" */;
+			buildPhases = (
+				D7AD6EFF252F3C0C005B9EAF /* Sources */,
+				D7AD6F00252F3C0C005B9EAF /* Frameworks */,
+				D7AD6F01252F3C0C005B9EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LexClockWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = LexClockWidgetExtension;
+			productReference = D7AD6F03252F3C0C005B9EAF /* LexClockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7AD6EDF252F3BF6005B9EAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D7AD6EE6252F3BF6005B9EAF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D7AD6F02252F3C0C005B9EAF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D7AD6EE2252F3BF6005B9EAF /* Build configuration list for PBXProject "LexClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7AD6EDE252F3BF6005B9EAF;
+			packageReferences = (
+			);
+			productRefGroup = D7AD6EE8252F3BF6005B9EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7AD6EE6252F3BF6005B9EAF /* LexClock */,
+				D7AD6F02252F3C0C005B9EAF /* LexClockWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7AD6EE5252F3BF6005B9EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AD6EF7252F3BF7005B9EAF /* LaunchScreen.storyboard in Resources */,
+				D7AD6EF4252F3BF7005B9EAF /* Preview Assets.xcassets in Resources */,
+				D7AD6EF1252F3BF7005B9EAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AD6F01252F3C0C005B9EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AD6F0E252F3C0D005B9EAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7AD6EE3252F3BF6005B9EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AD6EEB252F3BF6005B9EAF /* AppDelegate.swift in Sources */,
+				D7AD6F25252F4ABE005B9EAF /* ClockView.swift in Sources */,
+				D7AD6F11252F3C0D005B9EAF /* LexClockWidget.intentdefinition in Sources */,
+				D7AD6EED252F3BF6005B9EAF /* SceneDelegate.swift in Sources */,
+				D7AD6EEF252F3BF6005B9EAF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AD6EFF252F3C0C005B9EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AD6F0B252F3C0C005B9EAF /* LexClockWidget.swift in Sources */,
+				D7AD6F2C252F4B6E005B9EAF /* ClockView.swift in Sources */,
+				D7AD6F10252F3C0D005B9EAF /* LexClockWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7AD6F13252F3C0D005B9EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AD6F02252F3C0C005B9EAF /* LexClockWidgetExtension */;
+			targetProxy = D7AD6F12252F3C0D005B9EAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7AD6EF5252F3BF7005B9EAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7AD6EF6252F3BF7005B9EAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7AD6EF9252F3BF7005B9EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7AD6EFA252F3BF7005B9EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7AD6EFC252F3BF7005B9EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LexClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SKD83S59G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LexClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.lex.WidgetPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7AD6EFD252F3BF7005B9EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LexClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SKD83S59G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LexClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.lex.WidgetPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7AD6F16252F3C0D005B9EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SKD83S59G;
+				INFOPLIST_FILE = LexClockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.lex.WidgetPlayground.LexClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7AD6F17252F3C0D005B9EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SKD83S59G;
+				INFOPLIST_FILE = LexClockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sh.lex.WidgetPlayground.LexClockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7AD6EE2252F3BF6005B9EAF /* Build configuration list for PBXProject "LexClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AD6EF9252F3BF7005B9EAF /* Debug */,
+				D7AD6EFA252F3BF7005B9EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AD6EFB252F3BF7005B9EAF /* Build configuration list for PBXNativeTarget "LexClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AD6EFC252F3BF7005B9EAF /* Debug */,
+				D7AD6EFD252F3BF7005B9EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AD6F15252F3C0D005B9EAF /* Build configuration list for PBXNativeTarget "LexClockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AD6F16252F3C0D005B9EAF /* Debug */,
+				D7AD6F17252F3C0D005B9EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7AD6EDF252F3BF6005B9EAF /* Project object */;
+}
